@@ -327,3 +327,101 @@ We compared each feature from the dataset with the user’s ability to pay their
 3. Iowa is the state with lowest loan payback ability by ratio 30 %. 
 4. High interest rates can trigger low loan payback ability. 
 _I am very open to any suggestion. It can be on the method i analyzed the data, or even the way i understand important terms used._
+
+## Investigating the relationship between the playing surface and the injury and performance of NFL athletes?
+_(First uploaded on January 2020)_
+**Introduction**
+
+These are datasets and variables provided to examine the effects that playing on synthetic turf versus natural turf can have on player movements and the factors that may contribute to lower extremity injuries. The data provided for analysis are 250 complete player in-game histories from two subsequent NFL regular seasons. Three different files in .csv format are provided, documenting injuries, player-plays, and player movement during plays. This manual describes the specifics of each variable contained within the datasets as well as guidelines on the best approach to processing the information.
+
+**Objective**
+
+The task is to investigate the relationship between the playing surface and the injury and performance of National Football League (NFL) athletes and to examine factors that may contribute to lower extremity injuries.
+
+**Solutions**
+
+The task was solved by doing Exploratory Data Analysis. We found patterns between positions, time spent in the field and what injuries that the players have. For different positions, the players are prone to different kinds of injuries.
+
+**Original Data Source**
+
+https://www.kaggle.com/c/nfl-playing-surface-analytics/overview
+
+## Training A Deep Learning Model to Classify Cats & Dogs Pictures
+_(First uploaded on December 2019)_
+
+**Introduction**
+
+In the era in which AI is becoming more common, there is one area where AI can be useful. That is the Image classifier. We always see this time and time again, that AI’s ability in this area can be very useful in automation. In this project, the task was to build an image classifier that can perform well to classify whether a picture is a picture of a cat or a picture of a dog.  
+
+**Objective**
+
+Building an image classifier to classify a picture to be a picture of a dog or a cat. 
+
+**Solutions**
+
+We chose a deep learning model to be the classifier. The type of deep learning that we chose is CNN (Convolutional Neural Network) which is the most common deep learning model to be used for image classification. 
+
+**Original Data Source**
+
+https://www.kaggle.com/tongpython/cat-and-dog
+
+## Choosing the Best Machine Learning Algorithm to Predict A Pulsar
+_(First uploaded on December 2019)_
+
+**Introduction**
+
+Pulsars are a rare type of Neutron star that produce radio emission detectable here on Earth. They are of considerable scientific interest as probes of space-time, the interstellar medium, and states of matter. Machine learning tools are now being used to automatically label pulsar candidates to facilitate rapid analysis. Classification systems in particular are being widely adopted,which treat the candidate data sets as binary classification problems.
+
+Each candidate is described by 8 continuous variables, and a single class variable. The first four are simple statistics obtained from the integrated pulse profile (folded profile). This is an array of continuous variables that describe a longitude-resolved version of the signal that has been averaged in both time and frequency . The remaining four variables are similarly obtained from the DM-SNR curve . These are summarized below:
+
+1. Mean of the integrated profile.
+2. Standard deviation of the integrated profile.
+3. Excess kurtosis of the integrated profile.
+4. Skewness of the integrated profile.
+5. Mean of the DM-SNR curve.
+6. Standard deviation of the DM-SNR curve.
+7. Excess kurtosis of the DM-SNR curve.
+8. Skewness of the DM-SNR curve.
+9. Class
+
+**Objective**
+
+Compare various Machine Learning algorithms to find which algorithm works best to predict a Pulsar.
+
+**Solutions**
+
+Scikit-Learn and Keras are used during this project to build the machine learning model. The accuracy from each model is later compared.
+
+**Original Data Source**
+
+https://www.kaggle.com/colearninglounge/predicting-pulsar-starintermediate?select=pulsar_data_train.csv
+
+## Kepler Exoplanet
+_(First uploaded on December 2019)_
+
+**Introduction**
+
+The Kepler Space Observatory is a NASA-build satellite that was launched in 2009. The telescope is dedicated to searching for exoplanets in star systems besides our own, with the ultimate goal of possibly finding other habitable planets besides our own. The original mission ended in 2013 due to mechanical failures, but the telescope has nevertheless been functional since 2014 on a "K2" extended mission.
+
+Kepler had verified 1284 new exoplanets as of May 2016. As of October 2017 there are over 3000 confirmed exoplanets total (using all detection methods, including ground-based ones). The telescope is still active and continues to collect new data on its extended mission.
+
+This dataset is a cumulative record of all observed Kepler "objects of interest" — basically, all of the approximately 10,000 exoplanet candidates Kepler has taken observations on. This dataset has an extensive data dictionary, which can be accessed here. Highlightable columns of note are:
+
+**kepoi_name**: A KOI is a target identified by the Kepler Project that displays at least one transit-like sequence within Kepler time-series photometry that appears to be of astrophysical origin and initially consistent with a planetary transit hypothesis
+**kepler_name**: [These names] are intended to clearly indicate a class of objects that have been confirmed or validated as planets—a step up from the planet candidate designation.
+**koi_disposition**: The disposition in the literature towards this exoplanet candidate. One of CANDIDATE, FALSE POSITIVE, NOT DISPOSITIONED or CONFIRMED.
+**koi_pdisposition**: The disposition Kepler data analysis has towards this exoplanet candidate. One of FALSE POSITIVE, NOT DISPOSITIONED, and CANDIDATE.
+**koi_score**: A value between 0 and 1 that indicates the confidence in the KOI disposition. For CANDIDATEs, a higher value indicates more confidence in its disposition, while for FALSE POSITIVEs, a higher value indicates less confidence in that disposition.
+
+**Objective**
+
+Create a machine learning model that can perform well to predict an exoplanet. 
+
+**Solutions**
+
+There are various machine learning models that we compared such as Artificial Neural Network, Support Vector Machine, Random Forest Classifier etc. The model with the highest accuracy will be chosen to be our model.
+
+**Original Data Source**
+
+https://www.kaggle.com/nasa/kepler-exoplanet-search-results
+
