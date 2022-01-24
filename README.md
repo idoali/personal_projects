@@ -282,7 +282,7 @@ This stroke problem that we have here is a binary classification problem. For th
 
 https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
 
-## Comparing Ensemble Methods to Predict Future Sales On Russian Software Market 
+## Comparing Various Ensemble Methods to Predict Future Sales On Russian Software Market 
 _(First uploaded on March 2021)_
 
 **Introduction**
@@ -328,7 +328,7 @@ We compared each feature from the dataset with the user’s ability to pay their
 4. High interest rates can trigger low loan payback ability. 
 _I am very open to any suggestion. It can be on the method i analyzed the data, or even the way i understand important terms used._
 
-## Investigating the relationship between the playing surface and the injury and performance of NFL athletes?
+## Investigating the Relationship Between the Playing Surface and the Injury and Performance of NFL Athletes
 _(First uploaded on January 2020)_
 **Introduction**
 
