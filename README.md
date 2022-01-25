@@ -66,7 +66,11 @@ This data was started to be taken in 2005.
 
 Analyze the review of the phones that are purchased on Amazon. These reviews can also be useful for the service in the future, so extracting information from these reviews is also important.  
 
-**Solutions** 
+**Solutions**
+
+Exploratory Data Analysis is done to get insight on the Amazon phone market. Extracting information from buyer’s review is done by text summarization using Hugging face transformer pipeline. 
+
+**Conclusions**
 
 In Exploratory Data Analysis (EDA), we explored the total sales and rating of the most popular phones sold on Amazon. This analysis gave us useful insight in how the phone market works for the past few years. We extracted the reviews of selected products and summarized them using T5, a popular Transformer model mostly used for summarization.  
 Conclusion : Chinese phone products have a high possibility of getting high ratings. OnePlus is one of these products, and it’s the most expensive one. T5 model on this project can be executed and give a good performance. This is one of the summarization result for Samsung Galaxy Note 9 that was sold in 2019 : 
